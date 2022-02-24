@@ -1,0 +1,310 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="top.css">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <title>FE Challenge</title></head>
+<body>
+    <nav class="">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+       
+                <!--
+                  Icon when menu is closed.
+      
+                  Heroicon name: outline/menu
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+             
+                <!--
+                  Icon when menu is open.
+      
+                  Heroicon name: outline/x
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex-shrink-0 flex items-center">
+               
+                <img class="hidden lg:block h-8 w-auto" src="img/edh.png" alt="Workflow">
+                <a href="#" class="  text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">TechFin</a>
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                 
+      
+    
+                </div>
+                
+              </div>
+              <a href="#" class=" items-right text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page"></a>
+            </div>
+            <div>
+                <a href="#" class=" items-center text-white px-3 py-2 rounded-md text-sm font-small" aria-current="page">   Sign up and get 20% Bonus on Referrals </a>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            
+                <a href="#" class=" items-center text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Login</a>
+              <!-- Profile dropdown -->
+              <div class="ml-3 relative">
+               
+                <div>
+                 
+                  <button type="button" class="bg-black-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                    <button href="#" class=" newupdate" aria-current="page">GET THE APP</button>
+                   
+                  </button>
+                </div>
+      
+                <!--
+                  Dropdown menu, show/hide based on menu state.
+      
+                  Entering: "transition ease-out duration-100"
+                    From: "transform opacity-0 scale-95"
+                    To: "transform opacity-100 scale-100"
+                  Leaving: "transition ease-in duration-75"
+                    From: "transform opacity-100 scale-100"
+                    To: "transform opacity-0 scale-95"
+                -->
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+   
+      </nav>
+
+
+      <div style="display:flex;">
+        <div class="newdate">
+          <button class="newupdate">NEW UPDATE</button> 
+       
+         <p class="view"style="">Introducing with ACH</p>
+        </div>
+      </div>
+      <div style="display:flex;
+                    margin:30px;">
+        <div style="display:grid;">
+      <h1 class="automate">ACH E-wallet in your<span style="display:grid;">
+         <div>your pockets 🤑 </div> 
+          <svg width="300" height="27" viewBox="0 0 300 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M179.541 12.332C139.616 12.8115 99.6716 14.7139 59.9209 18.1144C41.0221 19.7313 19.075 19.5292 0.745504 25.042C-0.167805 25.3195 0.00613134 26.1518 0.0258999 26.235C0.0654371 26.4054 0.231536 26.9721 0.95902 26.9999C1.03809 27.0038 1.59553 26.9246 1.80903 26.8968C7.22167 26.1834 12.6146 25.3512 18.0312 24.6775C36.7323 22.3431 55.4887 20.5795 74.2728 19.0338C99.205 16.9809 124.351 15.887 149.35 15.031C163.034 14.5633 177.046 15.1855 190.773 14.2185C195.814 14.1907 200.855 14.1869 205.896 14.2027C226.969 14.278 248.019 15.0786 269.057 16.1764C275.822 16.5291 280.981 16.9096 287.604 17.1672C290.118 17.2663 294.108 17.3337 296.883 17.3772C297.29 17.3852 298.33 17.393 298.761 17.397C298.805 17.4049 298.848 17.4049 298.896 17.4049C299.062 17.4049 299.141 17.393 299.156 17.393C300.097 17.2543 300.01 16.3626 299.987 16.2279C299.983 16.2001 299.841 15.4471 299.03 15.4193C298.836 15.4114 297.448 15.4036 296.915 15.3956C294.155 15.352 290.182 15.2847 287.679 15.1895C281.068 14.9319 275.913 14.5515 269.16 14.1987C248.09 13.1009 227.009 12.2964 205.904 12.2211C203.326 12.2132 200.744 12.2092 198.167 12.2132C198.08 11.9873 197.886 11.7336 197.459 11.6226C197.06 11.5196 194.201 11.4285 193.098 11.3373C184.934 10.6636 185.175 10.6953 176.192 10.1444C162.587 9.30813 160.515 9.11781 146.365 8.76508C120.662 8.12304 94.9468 8.17463 69.2398 8.23804C56.5483 8.27371 42.9593 9.13371 30.0742 7.52861C34.3205 7.02924 38.5826 6.66464 42.8368 6.2485C57.3628 4.82967 71.9006 3.94979 86.4859 3.33153C121.472 1.84928 156.514 1.25881 191.489 3.28005C184.044 3.35139 176.603 3.51779 169.158 3.6248C138.853 4.06868 108.255 3.73581 78.013 6.03844C77.4714 6.08203 77.0642 6.55759 77.1037 7.10055C77.1432 7.64748 77.6216 8.05571 78.1633 8.01608C108.366 5.71345 138.92 6.05029 169.186 5.60641C180.43 5.44392 191.671 5.15067 202.915 5.23786C206.774 5.26956 210.633 5.41226 214.492 5.45982C215.255 5.47171 217.22 5.62231 217.5 5.5589C218.121 5.42019 218.255 4.96043 218.295 4.73452C218.315 4.59977 218.378 3.82298 217.429 3.54556C210.953 1.65114 199.001 1.73833 192.707 1.36579C157.301 -0.734719 121.824 -0.148178 86.4029 1.34992C71.782 1.97214 57.2086 2.856 42.6431 4.27879C37.5546 4.77419 32.4543 5.20222 27.3857 5.86011C26.5673 5.96712 24.7288 6.12171 23.8392 6.2842C23.4675 6.35158 23.1987 6.44663 23.0801 6.514C22.6175 6.77558 22.5345 7.15605 22.5345 7.41366C22.5305 7.61182 22.6135 8.30935 23.5822 8.49958C38.3414 11.3967 54.4014 10.2593 69.2437 10.2197C94.935 10.1562 120.63 10.1047 146.318 10.7467C160.432 11.0994 162.496 11.2858 176.073 12.122C177.414 12.2013 178.548 12.2725 179.541 12.332Z" fill="#99C2FF"/>
+            </svg>
+        </span></h1>
+      </br>
+       
+        </div>
+        <div style="position:relative;top:-3%;"class="circle">
+          <img src="img/phone.png" class="phone">
+        </div>
+      </div>
+    </br>
+  </br>
+</br>
+</br>
+      <div class="align">
+<div class="newfeature">
+  <div class="newfeaturebox">
+  <p>Features</p>
+</div>
+<div><p>About</p></div> 
+<div><p>Connect</p></div> 
+<div><p>Download</p>  </div> 
+</div>
+      <h1 class="automate">Automate all your payments</h1>
+      <div class="words">
+      <h2> A standard ACH debit through Dwolla will be made available in the Dwolla Network three to four business days after the transfer is initiated
+        but with TechFin, It arrives <span style="color:white"> instantly</span>.</h2>
+        </div>
+        </div>
+        <div class="features">
+          <div style="display:flex; column-gap:20px;">
+            <div class="box">
+                <img class="cube"src="img/cube3d.png">
+                <p class="newview">Multi Platform </p>
+                <p class="views">Adjust responsive spacing, change font size,
+                    hide sections on specific devices.</p>
+            </div>
+            <div class="box">
+              <img class="cube"src="img/tag-right.png">
+              <p class="newview">Verified Payment </p>
+              <p class="views">Adjust responsive spacing, change font size,
+                  hide sections on specific devices.</p>
+          </div>
+          <div class="box">
+            <img class="cube"src="img/people.png">
+            <p class="newview">Secure Identification </p>
+            <p class="views">Adjust responsive spacing, change font size,
+                hide sections on specific devices.</p>
+        </div>
+      
+          </div>
+          <br>
+          <div style="display:flex; column-gap:20px;">
+            <div class="box">
+                <img class="cube"src="img/receipt-item.png">
+                <p class="newview">Multi Platform </p>
+                <p class="views">Adjust responsive spacing, change font size,
+                    hide sections on specific devices.</p>
+            </div>
+            <div class="box">
+              <img class="cube"src="img/shield-search.png">
+              <p class="newview">Secure Cloud Data </p>
+              <p class="views">Adjust responsive spacing, change font size,
+                  hide sections on specific devices.</p>
+          </div>
+          <div class="box">
+            <img class="cube"src="img/receipt-item.png">
+            <p class="newview">Secure Identification </p>
+            <p class="views">Adjust responsive spacing, change font size,
+                hide sections on specific devices.</p>
+        </div>
+          </div>
+            <div class="sizecontain">
+              <p class="size">🏦 Help businesses save time and cut costs.
+                And, for nonprofits and religious organizations,
+                Direct Payment helps manage and increase
+                automatic donations. </p>
+              <p class="size">💶 Stock exchange. Lets investors recoup
+                the initial investment plus capital gains
+                from subsequent rises in stock price.</p>
+                <p class="size"> 🔐 Next‑generation security. knows a face
+                  when it sees one, and intelligently relights
+                  it to capture more natural-looking contours</p>
+            </div>
+            
+          
+    
+
+        <div class="debitcard">
+          <div class="newords">
+         <div style="margin:0px 183px;"> <p>Send Funds</p></div>
+       <div>   <p>Receive Funds</p></div>
+        </div> 
+        <div class="line"></div>
+        <div class="flexview">
+          <div>
+            <p class="text1">— 890m Transactions Completed</p>
+            <p class="text2">Connect your
+            Debit Card.</p>
+            <p class="text3">Our ACH Network has been continually advancing since its first release
+              , adding new capabilities and transaction types, improving 
+              processing speeds.</p>
+              <button class="newupdate"> 🚀 Get Started</button>
+          </div>
+          <div class="computer">
+            <img src="img/image.png">
+          </div>
+
+        </div>
+       
+        </div>
+        <div style="justify-content:center; align-items:center;display:grid;">
+          <div class="ellipse"><p>i</p></div>
+         <p style=""class="text4"> We are currently in BETA, 
+           you may encounter some issues 
+           if you go ahead and launch now.</p>
+
+        </div>
+        <div style="display:flex;
+        margin:30px;"class="flexview">
+          <div>
+          <p class="phones">
+            ACH E-wallet in your pockets 🤑
+          </p>
+          <p class="text3">When you wake up on a Friday and see
+             that your salary was automatically deposited to your bank account, that’s ACH.</p>
+          <button class="newupdate"> 🚀 Get Our App</button>
+        </div>
+        <div>
+          <img src="img/phones.png">
+        </div>
+        </div>
+        <div style="justify-content:center; align-items:center;display:grid;">
+        <p style="justify-content:center;"class="text4"> Inspired by Global Brands.</p>
+        </div>
+               <img src="img/logo.png">
+               <br>
+               <div  class="finaline">
+                 <br>
+               <div class="flexview">
+                 <div style="display:grid;">
+                   <div class="flexview">
+                   <img src="img/edh.png"><p class="techfin">Techfin</p>
+                
+                  </div>
+                  <br>
+                  <p class="ftext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere viverra nec, sit est, tellus habitant. </p>
+                 </div>
+                 <div style="display:grid;">
+                   <p class="footerlist">COMPANY</p>
+                      <br>
+                   <p class="ftext" >About </p>
+                   <br>
+                   <p class="ftext" >FAQ </p>
+                   <br>
+                   <p class="ftext" >Contact us</p>
+                   <br>
+                   <p class="ftext" >Careers</p>
+                   <br>
+                   <p class="ftext" >Privacy Policy</p> </p>
+                   
+                  </div>
+                 <div style="display:grid;">
+                  <p class="footerlist">PRODUCTS</p>
+                  <br>
+                  <p class="ftext" >Features </p>
+                  <br>
+                  <p class="ftext" >Connect </p>
+                  <br>
+                  <p class="ftext" >Pricing</p>
+                  <br>
+                  <p class="ftext" >Download </p>
+                </div>
+                 <div>
+                   <p class="footerlist">NEED HELP</p>
+                   <br>
+                   <p class="ftext" >+234 81 333 0965</p>
+                   <br>
+                  <p class="footerlist">NEED SUPPORT</p>
+                  <br>
+                  <p class="ftext" > hi@mosessmax.com</p>
+                 
+                </div>
+                 <div style="display:grid;">
+                   <p class="footerlist">FOLLOW US</p>
+
+                   <img src="img/sm.png">
+                   <br>
+                   <div style="display:flex;">
+                     <div class="bigbox">Enter your email address</div>
+                     <div class="finalbox">GO</div>
+                   </div>
+                </div>
+                
+
+               </div> 
+               <div class="finaline"></div>
+               <div class="flexview">
+                <p class="fftext" style="justify-content:left; align-items:left;text-align:left;">English/NGN</p>
+                <p class="fftext">(c) 2022 Techfin. All Right Reserved Design by Adebayo Moses(mosessmax)</p>
+                </div>
+               
+      </div>
+    
+      
+</body>
+
+</html>
